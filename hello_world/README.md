@@ -11,3 +11,7 @@ The `2-assembler` script generates assembly code from a C source file and saves 
 The `3-name` script compiles a C source file into an executable named `cisfun`.
 
 The `4-puts.c` program prints the specified text using `puts()`, followed by a newline.
+
+The `5-printf.c` program prints the specified text using `printf()`, followed by a newline.
+
+The `6-size.c` program uses `sizeof` to display the sizes of five C data types in bytes.
