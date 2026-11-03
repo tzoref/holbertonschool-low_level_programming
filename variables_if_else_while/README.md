@@ -8,9 +8,9 @@ This project introduces variables, conditional statements, and loops in C.
 
 ## Task 1: The last digit
 
-`1-last_digit.c` prints the last digit of a random integer and classifier.
+`1-last_digit.c` prints the last digit of a random integer and classifies it.
 
-# Task 2: Alphabet
+## Task 2: Alphabet
 
 `2-print_alphabet.c` prints the lowercase alphabet.
 
@@ -29,3 +29,15 @@ This project introduces variables, conditional statements, and loops in C.
 ## Task 6: Numberz
 
 `6-print_numberz.c` prints digits 0 through 9 using only `putchar`.
+
+## Task 7: Smile in the mirror
+
+`7-print_tebahpla.c` prints the lowercase alphabet in reverse.
+
+## Task 8: Hexadecimal
+
+`8-print_base16.c` prints the hexadecimal digits 0 through f in lowercase.
+
+## Task 9: Patience, Persistence
+
+`9-print_comb.c` prints number combinations.
