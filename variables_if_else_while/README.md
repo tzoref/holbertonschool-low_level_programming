@@ -21,3 +21,11 @@ This project introduces variables, conditional statements, and loops in C.
 ## Task 4: Alphabet without e and q
 
 `4-print_alphabt.c` prints the lowercase alphabet excluding e and q.
+
+## Task 5: Numbers
+
+`5-print_numbers.c` prints the digits 0 through 9.
+
+## Task 6: Numberz
+
+`6-print_numberz.c` prints digits 0 through 9 using only `putchar`.
