@@ -8,4 +8,16 @@ This project introduces variables, conditional statements, and loops in C.
 
 ## Task 1: The last digit
 
-`1-last_digit.c` prints the last digit of a random integer and classifies it.
+`1-last_digit.c` prints the last digit of a random integer and classifier.
+
+# Task 2: Alphabet
+
+`2-print_alphabet.c` prints the lowercase alphabet.
+
+## Task 3: alphABET
+
+`3-print_alphabets.c` prints lowercase and uppercase alphabets.
+
+## Task 4: Alphabet without e and q
+
+`4-print_alphabt.c` prints the lowercase alphabet excluding e and q.
