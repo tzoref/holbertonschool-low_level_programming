@@ -21,5 +21,5 @@ void print_array(int *a, int n)
 		if (i < n)
 			printf(", ");
 	}
-	_putchar('\n');
+	printf("\n");
 }
