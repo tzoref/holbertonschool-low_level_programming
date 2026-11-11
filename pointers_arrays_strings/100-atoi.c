@@ -11,15 +11,17 @@ int _atoi(char *s)
 {
 	int n;  /* number to return */
 	int i;  /* counter */
-	/*int sign;*/
+	int sign;
 	int digit;
 
-	/*sign = 1;*/
+	sign = 1;
 	n = 0;
 	i = 0;
 	digit = 0;
 	while (s[i] != '\0')
 	{
+		if (s[i] == '-')
+			sign = -sign;
 		while  (s[i] >= '0' && s[i] <= '9')
 		{
 			n = n * 10 + (s[i] - '0');
@@ -27,7 +29,7 @@ int _atoi(char *s)
 			digit++;
 		}
 		if (digit > 0)
-			return (n);
+			return (n * sign);
 		i++;
 	}
 	return (n);
