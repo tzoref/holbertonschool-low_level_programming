@@ -37,10 +37,12 @@ int main(void)
 			printf("A: \n");
 			scanf("%d", &B);
 			if (choice == 1)
-			{
 				result = A + B;
-				printf("Result: %d\n", result);
-			}
+			else if (choice == 2)
+				result = A - B;
+			else if (choice == 3)
+				result = A * B;
+			printf("Result: %d\n", result);
 		}
 	}
 	return (0);
