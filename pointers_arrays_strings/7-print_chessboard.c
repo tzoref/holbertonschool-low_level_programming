@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_chessboard - Prints an 8 by 8 chessboard.
  * @a: Two-dimensional array representing the board.
@@ -12,13 +11,13 @@ void print_chessboard(char (*a)[8])
 	i = 0;
 	while (i < 8)
 	{
-		j = 0;
-		while (j < 8)
-		{
-			_putchar(a[i][j]);
+	j = 0;
+	while (j < 8)
+	{
+		_putchar(a[i][j]);
 		j++;
-		}
 	}
 	_putchar('\n');
 	i++;
+	}
 }
