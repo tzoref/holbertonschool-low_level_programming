@@ -12,6 +12,9 @@ void menu(void);
 int main(void)
 {
 	int choice;
+	int A;
+	int B;
+	int result;
 
 	choice = 9;
 	printf("Welcome to the Simple Calculator!\n");
@@ -25,9 +28,20 @@ int main(void)
 			printf("Bye!\n");
 			return (0);
 		}
-		else if (choice != 1 && choice != 2 && choice != 3 && choice != 4)
-			printf("Invalid choice");
-
+		else if (choice != 2 && choice != 3 && choice != 4)
+			printf("Invalid choice\n");
+		else
+		{
+			printf("A: \n");
+			scanf("%d", &A);
+			printf("A: \n");
+			scanf("%d", &B);
+			if (choice == 1)
+			{
+				result = A + B;
+				printf("Result: %d\n", result);
+			}
+		}
 	}
 	return (0);
 }
