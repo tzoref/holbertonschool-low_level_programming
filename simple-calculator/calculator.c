@@ -28,7 +28,7 @@ int main(void)
 		printf("Bye!\n");
 		return (0);
 	}
-	else if (choice != 1)
+	else if (choice == 1)
 	{
 		printf("A: \n");
 		scanf("%d", &A);
