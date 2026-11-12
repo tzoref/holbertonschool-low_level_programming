@@ -2,8 +2,8 @@
 /**
  * main - Entry Point
  *
- * Description: Prints a welcome message and interactive menu skeleton
- * for a simple calculator program
+ * Description: Enables user to quit interactive calculator
+ * and informs user of invalid choice
  *
  * Return: Always 0 (Success)
  */
@@ -20,6 +20,11 @@ int main(void)
 
 	scanf("%d", &choice);
 	if (choice == 0)
+	{
+		printf("Bye\n");
 		return (0);
+	}
+	else if (choice != 1 && choice !=  2  && choice != 3 && choice != 4)
+		printf("Invalid choice\n");
 	return (0);
 }
