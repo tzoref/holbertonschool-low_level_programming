@@ -37,7 +37,16 @@ int main(void)
 		result = A + B;
 		printf("Result: %d\n", result);
 	}
-	else if (choice !=  2  && choice != 3 && choice != 4)
+	else if (choice == 2)
+	{
+		printf("A: \n");
+		scanf("%d", &A);
+		printf("B: \n");
+		scanf("%d", &B);
+		result = A -  B;
+		printf("Result: %d\n", result);
+        }
+	else if (choice != 3 && choice != 4)
 		printf("Invalid choice\n");
 	return (0);
 }
