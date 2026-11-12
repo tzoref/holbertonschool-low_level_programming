@@ -28,25 +28,48 @@ int main(void)
 			printf("Bye!\n");
 			return (0);
 		}
-		else if (choice != 2 && choice != 3 && choice != 4)
-			printf("Invalid choice\n");
-		else
+		else if (choice == 1 || choice == 2 || choice == 3 || choice == 4)
 		{
 			printf("A: \n");
 			scanf("%d", &A);
-			printf("A: \n");
+			printf("B: \n");
 			scanf("%d", &B);
 			if (choice == 1)
+			{
 				result = A + B;
+				printf("Result: %d\n", result);
+			}
 			else if (choice == 2)
+			{
 				result = A - B;
+				printf("Result: %d\n", result);
+			}
 			else if (choice == 3)
+			{
 				result = A * B;
-			printf("Result: %d\n", result);
+				printf("Result: %d\n", result);
+			}
+			else if (choice == 4)
+			{
+				if (B == 0)
+					printf("Error: division by zero\n");
+				else
+				{
+					result = A / B;
+					printf("Result: %d\n", result);
+				}
+			}
 		}
+		else
+			printf("Invalid choice\n");
 	}
 	return (0);
 }
+/**
+ * menu - Prints interactive menu
+ *
+ * Description: Prints the interactive menu skeleton
+ */
 void menu(void)
 {
 	printf("1) Add\n");
