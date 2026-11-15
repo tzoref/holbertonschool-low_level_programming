@@ -4,8 +4,8 @@ void menu(void);
 /**
  * main - Entry Point
  *
- * Description: Prints a welcome message and interactive menu skeleton
- * for a simple calculator program
+ * Description: Runs an interactive integer calculator supporting 
+ * addition, subtraction, multiplication, and division with two integers.
  *
  * Return: Always 0 (Success)
  */
